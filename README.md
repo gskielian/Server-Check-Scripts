@@ -15,25 +15,22 @@ chmod the script:
 `chmod +x list-unauth-by-country.sh`
 
 
-#### unauth by country
+### unauth by country
 
 lists total unauths from each region:
 
 `./list-unauth-by-country.sh`
 
 
-#### unauth by day by country
+### unauth by day by country
 
 find out the number of unauth attempts for a specific date from each region
-
-
-##### Usage template:
 
 `./list-unauth-attempts-by-day.sh <month> <day>`
 
 remember to use three letter month with first letter capital for `<month>`
 
-##### Example:
+#### Example:
 
 ```sh
 ./list-unauth-attempts-by-day.sh Apr 3
@@ -57,7 +54,7 @@ remember to use three letter month with first letter capital for `<month>`
       1 GeoIP Country Edition: CA, Canada
 ```
 
-# TODOs
+## TODOs
 
 - group disparate scripts into one script with flags
 - listing by month
