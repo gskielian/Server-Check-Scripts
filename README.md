@@ -5,7 +5,7 @@ Scripts for checking for unauthorized attempts to access your server and running
 
 requires geoip-bin, install using:
 
-`sudo apt-get get install geoip-bin geoio-database`
+`sudo apt-get install geoip-bin geoip-database`
 
 ## usage
 
